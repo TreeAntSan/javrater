@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>850</width>
+    <height>870</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>JAV Rater</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>822</width>
+      <height>813</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QGroupBox" name="groupBox_7">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>Basics</string>
+           </property>
+           <widget class="QWidget" name="formLayoutWidget_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>301</width>
+              <height>123</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="formLayout_2">
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>Title</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="lineEdit_title">
+               <property name="placeholderText">
+                <string>The title, can include code...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>Code</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="lineEdit_code">
+               <property name="placeholderText">
+                <string>Formatted like &quot;ABC-123&quot;, may be blank.</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>Genre</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>Rating</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QComboBox" name="comboBox_genre">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>STD - Standard</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>INC - Incest</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FET - Fetish</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>GRO - Gross</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>INT - Interesting</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>VOY - Voyeur</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>IDL - Idol</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>OTH - Other</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>EWF - Embarrassing, Weird, or Funny</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QComboBox" name="comboBox_rating">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>300</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <item>
+                <property name="text">
+                 <string>_ - Unrated</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>1 - Bad!</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2 - Below Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3 - Average</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4 - Good</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>5 - Great!</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>6 - Awesome!</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QCheckBox" name="checkBox_tagsOnly">
+               <property name="toolTip">
+                <string>If you just want to make the tags, check this</string>
+               </property>
+               <property name="text">
+                <string>Tags Only</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="QGroupBox" name="groupBox_8">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>140</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Special Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_7">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>111</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_spec_ZZ">
+                   <property name="toolTip">
+                    <string>not familiar enough with this video to make easy decisions on</string>
+                   </property>
+                   <property name="text">
+                    <string>ZZ - Incomplete</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_spec_FV">
+                   <property name="toolTip">
+                    <string>some of my favorite stuff</string>
+                   </property>
+                   <property name="text">
+                    <string>FV - Favorite</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_spec_HL">
+                   <property name="toolTip">
+                    <string>metitable within its own genre</string>
+                   </property>
+                   <property name="text">
+                    <string>HL - Hi-light</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_spec_SE">
+                   <property name="toolTip">
+                    <string>&quot;this is something else, man&quot; would be a way to describe this video</string>
+                   </property>
+                   <property name="text">
+                    <string>SE - Something Else</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_spec_AC">
+                   <property name="toolTip">
+                    <string>contains the work of a noted or favorite actress</string>
+                   </property>
+                   <property name="text">
+                    <string>AC - Special Actress</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_3">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>350</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Generic Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_4">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>318</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_VY">
+                   <property name="toolTip">
+                    <string>if this wasn't commercial porn...</string>
+                   </property>
+                   <property name="text">
+                    <string>VY - Very Young</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_YN">
+                   <property name="toolTip">
+                    <string>teenagers, mostly</string>
+                   </property>
+                   <property name="text">
+                    <string>YN - Young Girls</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_MA">
+                   <property name="toolTip">
+                    <string>mothers and up</string>
+                   </property>
+                   <property name="text">
+                    <string>MA - Mature Women</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_VD">
+                   <property name="toolTip">
+                    <string>60+ year old grandmas</string>
+                   </property>
+                   <property name="text">
+                    <string>VD - Very Old</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_CP">
+                   <property name="toolTip">
+                    <string>at least one creampie</string>
+                   </property>
+                   <property name="text">
+                    <string>CP - Creampie</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_CD">
+                   <property name="toolTip">
+                    <string>creampies are the end of a majority of scenes</string>
+                   </property>
+                   <property name="text">
+                    <string>CD - CP Dedicated</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_LE">
+                   <property name="toolTip">
+                    <string>girls doing girls</string>
+                   </property>
+                   <property name="text">
+                    <string>LE - Lesbian</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_SG">
+                   <property name="toolTip">
+                    <string>there are girls wearing sailor uniforms...</string>
+                   </property>
+                   <property name="text">
+                    <string>SG - School Girl</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_ST">
+                   <property name="toolTip">
+                    <string>there is a narrative of some kind, they are actors, not porn stars fucking</string>
+                   </property>
+                   <property name="text">
+                    <string>ST - Story</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_RL">
+                   <property name="toolTip">
+                    <string>director is trying for some realism here in a &gt;special&lt; way</string>
+                   </property>
+                   <property name="text">
+                    <string>RL - Realism</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_NP">
+                   <property name="toolTip">
+                    <string>not full of make-up covered models giving fake orgasms. Amateurs and authenticity are key</string>
+                   </property>
+                   <property name="text">
+                    <string>NP - Normal People</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_LB">
+                   <property name="toolTip">
+                    <string>girl is lubed and shiny for at least part of the video. Also counts for sweaty</string>
+                   </property>
+                   <property name="text">
+                    <string>LB - Lubed</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_LO">
+                   <property name="toolTip">
+                    <string>girl is acting/looking like a child</string>
+                   </property>
+                   <property name="text">
+                    <string>LO - Lolita</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gen_HF">
+                   <property name="toolTip">
+                    <string>the actors are fucking hard. A special classification that is just &quot;oh shit this is hot&quot;</string>
+                   </property>
+                   <property name="text">
+                    <string>HF - Hot Fucking</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_15">
+             <item>
+              <widget class="QGroupBox" name="groupBox_6">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>410</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>460</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Interesting Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_5">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>391</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_FN">
+                   <property name="toolTip">
+                    <string>make you laugh with some of the stuff they do</string>
+                   </property>
+                   <property name="text">
+                    <string>FN - Funny</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_WD">
+                   <property name="toolTip">
+                    <string>sometimes it's not even about getting a boner...</string>
+                   </property>
+                   <property name="text">
+                    <string>WD - Weird</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_BU">
+                   <property name="toolTip">
+                    <string>usually school bullying</string>
+                   </property>
+                   <property name="text">
+                    <string>BU - Bully</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_BM">
+                   <property name="toolTip">
+                    <string>girl is forced over guilt of something; having sex to get a job or good grades</string>
+                   </property>
+                   <property name="text">
+                    <string>BM - Blackmail</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_EM">
+                   <property name="toolTip">
+                    <string>girl is forced and made shameful or embarrassed over her actions</string>
+                   </property>
+                   <property name="text">
+                    <string>EM - Embarrassing</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_TS">
+                   <property name="toolTip">
+                    <string>girl is playfully forced to do embarrassing things, mild</string>
+                   </property>
+                   <property name="text">
+                    <string>TS - Teasing</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_SY">
+                   <property name="toolTip">
+                    <string>shy, reluctant about everything - beyond embarrassing tag</string>
+                   </property>
+                   <property name="text">
+                    <string>SY - Shy</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_FA">
+                   <property name="toolTip">
+                    <string>time manipulation, ghosts, body switching, mind control, etc</string>
+                   </property>
+                   <property name="text">
+                    <string>FA - Fantasy</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_GA">
+                   <property name="toolTip">
+                    <string>usually funny, takes crazy Japanese gameshow and puts porn in the equation</string>
+                   </property>
+                   <property name="text">
+                    <string>GA - Game</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_WR">
+                   <property name="toolTip">
+                    <string>men v women, women v women, whatever it is, there is a wrestling match!</string>
+                   </property>
+                   <property name="text">
+                    <string>WR - Wrestling</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_DR">
+                   <property name="toolTip">
+                    <string>here the check-up gets a little sexy</string>
+                   </property>
+                   <property name="text">
+                    <string>DR - Doctor</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_DG">
+                   <property name="toolTip">
+                    <string>girls getting drugged or drunk. Bad things happen</string>
+                   </property>
+                   <property name="text">
+                    <string>DG - Drugs/Drinks</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_SC">
+                   <property name="toolTip">
+                    <string>takes place in or around a school, teachers are obviously often involved</string>
+                   </property>
+                   <property name="text">
+                    <string>SC - School</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_PB">
+                   <property name="toolTip">
+                    <string>in a weird location, out in public, exhibitionists...</string>
+                   </property>
+                   <property name="text">
+                    <string>PB - Public</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_SR">
+                   <property name="toolTip">
+                    <string>wonderful sharking videos</string>
+                   </property>
+                   <property name="text">
+                    <string>SR - Sharking</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_RP">
+                   <property name="toolTip">
+                    <string>generic costumes like nun, police, or maid; acting while acting</string>
+                   </property>
+                   <property name="text">
+                    <string>RP - Role-playing</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_CO">
+                   <property name="toolTip">
+                    <string>costumes are involved that imply &quot;named&quot; characters</string>
+                   </property>
+                   <property name="text">
+                    <string>CO - Cosplay</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_OG">
+                   <property name="toolTip">
+                    <string>consensual group sex, not gang rapes</string>
+                   </property>
+                   <property name="text">
+                    <string>OG - Orgy</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_int_SL">
+                   <property name="toolTip">
+                    <string>whether just sleeping or drugged, girl is asleep when sexy happens</string>
+                   </property>
+                   <property name="text">
+                    <string>SL - Sleeping</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>320</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <item>
+              <widget class="QGroupBox" name="groupBox_9">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>400</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Fetish Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_12">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>364</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_RA">
+                   <property name="toolTip">
+                    <string>forced, usually by strangers</string>
+                   </property>
+                   <property name="text">
+                    <string>RA - Rape</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_CR">
+                   <property name="toolTip">
+                    <string>girl really isn't having much fun; ugly crying- tears, snot, etc required</string>
+                   </property>
+                   <property name="text">
+                    <string>CR - Crying</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_LD">
+                   <property name="toolTip">
+                    <string>loud moaning, screaming, sweaty, intense orgasms, whatever</string>
+                   </property>
+                   <property name="text">
+                    <string>LD - Loud</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_RC">
+                   <property name="toolTip">
+                    <string>uncomfortable and rough sex. Can involve stuff like wrestling, extrenuation</string>
+                   </property>
+                   <property name="text">
+                    <string>RC - Rough Core</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_TO">
+                   <property name="toolTip">
+                    <string>simple vibrator torture. Sensory overload, maybe a tiny bit of pain, but nothing serious</string>
+                   </property>
+                   <property name="text">
+                    <string>TO - Torture (Mild)</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_TR">
+                   <property name="toolTip">
+                    <string>a notch about rough core, usually the creepy Night24 stuff. Pain</string>
+                   </property>
+                   <property name="text">
+                    <string>TR - Torture (Intense)</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_GR">
+                   <property name="toolTip">
+                    <string>forced, by multiple</string>
+                   </property>
+                   <property name="text">
+                    <string>GR - Gang Rape</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_FC">
+                   <property name="toolTip">
+                    <string>girl is upset -in particular- about getting creampied</string>
+                   </property>
+                   <property name="text">
+                    <string>FC - Forced Creampie</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_HE">
+                   <property name="toolTip">
+                    <string>some really bad shit happens. Reserved for the extra fucked up stuff</string>
+                   </property>
+                   <property name="text">
+                    <string>HE - Heinous</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_IS">
+                   <property name="toolTip">
+                    <string>somehow seperates itself from usual creampie. Point is that they're making a baby</string>
+                   </property>
+                   <property name="text">
+                    <string>IS - Insemination</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_AB">
+                   <property name="toolTip">
+                    <string>girl is being bullied, teased - different from being rough or tortured</string>
+                   </property>
+                   <property name="text">
+                    <string>AB - Abused</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_PN">
+                   <property name="toolTip">
+                    <string>punishment and other general physical discipline or beating</string>
+                   </property>
+                   <property name="text">
+                    <string>PN - Punished</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_CH">
+                   <property name="toolTip">
+                    <string>girls getting molested in a crowded area</string>
+                   </property>
+                   <property name="text">
+                    <string>CH - Chikan</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_BD">
+                   <property name="toolTip">
+                    <string>ropes, restraints, etc</string>
+                   </property>
+                   <property name="text">
+                    <string>BD - Bondage</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_FE">
+                   <property name="toolTip">
+                    <string>scared girls feeling their well being is in danger. Fearful</string>
+                   </property>
+                   <property name="text">
+                    <string>FE - Fear</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_fet_OR">
+                   <property name="toolTip">
+                    <string>girls made to cum specifically</string>
+                   </property>
+                   <property name="text">
+                    <string>OR - Orgasm</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_10">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>120</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Gross Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_13">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>88</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_18">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gro_SP">
+                   <property name="toolTip">
+                    <string>absurd amounts of jizz everywhere</string>
+                   </property>
+                   <property name="text">
+                    <string>SP - Sperm</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gro_PE">
+                   <property name="toolTip">
+                    <string>girls peeing freely, girls inconstinent, doesn't matter</string>
+                   </property>
+                   <property name="text">
+                    <string>PE - Pee</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gro_PO">
+                   <property name="toolTip">
+                    <string>scat stuff... uhhgg</string>
+                   </property>
+                   <property name="text">
+                    <string>PO - Poop</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_gro_VO">
+                   <property name="toolTip">
+                    <string>dry heaving, retching, vomiting, all that gross stuff</string>
+                   </property>
+                   <property name="text">
+                    <string>VO - Vomit</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_8">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_13">
+             <item>
+              <widget class="QGroupBox" name="groupBox_14">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>350</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Incest Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_14">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>133</width>
+                  <height>311</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_19">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_MO">
+                   <property name="toolTip">
+                    <string>also includes grandmothers-grandsons</string>
+                   </property>
+                   <property name="text">
+                    <string>MO - Mother-Son</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_FD">
+                   <property name="toolTip">
+                    <string>also includes grandfathers-granddaughters</string>
+                   </property>
+                   <property name="text">
+                    <string>FD - Father-Daughter</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_BS">
+                   <property name="toolTip">
+                    <string>siblings in general</string>
+                   </property>
+                   <property name="text">
+                    <string>BS - Brother-Sister</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_MD">
+                   <property name="toolTip">
+                    <string>also includes any type of lesbian incest</string>
+                   </property>
+                   <property name="text">
+                    <string>MD - Mother-Daughter</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_FI">
+                   <property name="toolTip">
+                    <string>step-siblings, step-parents, etc</string>
+                   </property>
+                   <property name="text">
+                    <string>FI - Faux Incest</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_EF">
+                   <property name="toolTip">
+                    <string>aunts, uncles, cousins, etc</string>
+                   </property>
+                   <property name="text">
+                    <string>EF - Extended Family</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_JF">
+                   <property name="toolTip">
+                    <string>multiple relations abound</string>
+                   </property>
+                   <property name="text">
+                    <string>JF - Jumble Family</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_RI">
+                   <property name="toolTip">
+                    <string>realistic incest that does its best to make you believe they're related</string>
+                   </property>
+                   <property name="text">
+                    <string>RI - Realistic Incest</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_GI">
+                   <property name="toolTip">
+                    <string>not fooling anybody saying they're related</string>
+                   </property>
+                   <property name="text">
+                    <string>GI - Goofy Incest</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_MU">
+                   <property name="toolTip">
+                    <string>taboo is there, but they love each other/are so horny together</string>
+                   </property>
+                   <property name="text">
+                    <string>MU - Mutual</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_FR">
+                   <property name="toolTip">
+                    <string>family member forces another</string>
+                   </property>
+                   <property name="text">
+                    <string>FR - Forced</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_PR">
+                   <property name="toolTip">
+                    <string>family fucking is totally accepted</string>
+                   </property>
+                   <property name="text">
+                    <string>PR - Perversion</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_inc_BL">
+                   <property name="toolTip">
+                    <string>within reasoned odds that the actual people involved are related, often mother+daughter teams</string>
+                   </property>
+                   <property name="text">
+                    <string>BL - Blood Relation</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_12">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>130</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>130</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Voyeur Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_17">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>111</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_22">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_voy_VR">
+                   <property name="toolTip">
+                    <string>this guy would probably be put in jail for this</string>
+                   </property>
+                   <property name="text">
+                    <string>VR - Voyeur-Real</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_voy_VP">
+                   <property name="toolTip">
+                    <string>plausible angles, but the girls are just too good to be true</string>
+                   </property>
+                   <property name="text">
+                    <string>VP - Voyeur-Pseudo</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_voy_VF">
+                   <property name="toolTip">
+                    <string>they're not fooling anyone / they're not even trying to be real here</string>
+                   </property>
+                   <property name="text">
+                    <string>VF - Voyeur-Fake</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_voy_MB">
+                   <property name="toolTip">
+                    <string>spying on a girl who is masturbating is a leading piece</string>
+                   </property>
+                   <property name="text">
+                    <string>MB - Masturbation</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_voy_WC">
+                   <property name="toolTip">
+                    <string>spying on a girl who's using the toilet</string>
+                   </property>
+                   <property name="text">
+                    <string>WC - Toilet</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_16">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Idol Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_18">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>65</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_23">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_idl_U14">
+                   <property name="toolTip">
+                    <string>yeah, very young girls</string>
+                   </property>
+                   <property name="text">
+                    <string>U14 - Under 14</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_idl_O14">
+                   <property name="toolTip">
+                    <string>yeah, slightly less young</string>
+                   </property>
+                   <property name="text">
+                    <string>O14 - Over 14</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_idl_AD">
+                   <property name="toolTip">
+                    <string>legal girls just not taking it off</string>
+                   </property>
+                   <property name="text">
+                    <string>AD - Adult</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_17">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>140</height>
+                </size>
+               </property>
+               <property name="title">
+                <string>Other Tags</string>
+               </property>
+               <widget class="QWidget" name="verticalLayoutWidget_19">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>131</width>
+                  <height>111</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_24">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_oth_FO">
+                   <property name="toolTip">
+                    <string>white girls, black guys, traveling, outside of Asia</string>
+                   </property>
+                   <property name="text">
+                    <string>FO - Foreign</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_oth_QV">
+                   <property name="toolTip">
+                    <string>1080p or 60fps or both. Eye candy awaits</string>
+                   </property>
+                   <property name="text">
+                    <string>QV - Quality Video</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_oth_BQ">
+                   <property name="toolTip">
+                    <string>low pixels, bad frame rate, low bitrate</string>
+                   </property>
+                   <property name="text">
+                    <string>BQ - Bad Quality</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_oth_UC">
+                   <property name="toolTip">
+                    <string>no mosaics here</string>
+                   </property>
+                   <property name="text">
+                    <string>UC - Uncensored</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_oth_CL">
+                   <property name="toolTip">
+                    <string>folder than contains many single-shots that are all pretty much identical</string>
+                   </property>
+                   <property name="text">
+                    <string>CL - Collection</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>320</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_20">
+         <item>
+          <widget class="QGroupBox" name="groupBox_18">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>450</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>Girl Tags</string>
+           </property>
+           <widget class="QWidget" name="verticalLayoutWidget_20">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>141</width>
+              <height>421</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_25">
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_GN">
+               <property name="toolTip">
+                <string>orange, sparkly girls that make JWoww look normal</string>
+               </property>
+               <property name="text">
+                <string>GN - Ganguro</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_TN">
+               <property name="toolTip">
+                <string>girl is significantly tanned or tanned lined</string>
+               </property>
+               <property name="text">
+                <string>TN - Tanned</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_FT">
+               <property name="toolTip">
+                <string>trim and slim, but not buff</string>
+               </property>
+               <property name="text">
+                <string>FT - Fit</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_MS">
+               <property name="toolTip">
+                <string>trim and buff, showing off muscles and veins, always appears with FT</string>
+               </property>
+               <property name="text">
+                <string>MS - Muscle</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_SK">
+               <property name="toolTip">
+                <string>usually overrides fit and muscle, girl is skin and bones</string>
+               </property>
+               <property name="text">
+                <string>SK - Skinny</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_CB">
+               <property name="toolTip">
+                <string>fatty or big-boned girl</string>
+               </property>
+               <property name="text">
+                <string>CB - Chubby</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_DA">
+               <property name="toolTip">
+                <string>super asses or tits</string>
+               </property>
+               <property name="text">
+                <string>DA - Dat Ass-et</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_TI">
+               <property name="toolTip">
+                <string>super short, though not necessarily super young</string>
+               </property>
+               <property name="text">
+                <string>TI - Tiny</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_TL">
+               <property name="toolTip">
+                <string>very tall girl</string>
+               </property>
+               <property name="text">
+                <string>TL - Tall</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_BG">
+               <property name="toolTip">
+                <string>girl is tall and wide, bulky, often huge tits</string>
+               </property>
+               <property name="text">
+                <string>BG - Big Girl</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_SH">
+               <property name="toolTip">
+                <string>short haired girl</string>
+               </property>
+               <property name="text">
+                <string>SH - Short Hair</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_TB">
+               <property name="toolTip">
+                <string>girl trying to hide her feminine side</string>
+               </property>
+               <property name="text">
+                <string>TB - Tomboy</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_CU">
+               <property name="toolTip">
+                <string>shockingly cute girl</string>
+               </property>
+               <property name="text">
+                <string>CU - Cute</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_VI">
+               <property name="toolTip">
+                <string>someone here is a virgin, male or female; or its their first time on camera</string>
+               </property>
+               <property name="text">
+                <string>VI - Virginal</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_AV">
+               <property name="toolTip">
+                <string>obviously this is a porn actress, but her character is a virgin and really sells it</string>
+               </property>
+               <property name="text">
+                <string>AV - Acted Virgin</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_CS">
+               <property name="toolTip">
+                <string>dunno, the girl just looks interesting. Eyes, face, demeanor, expression. Catches the eye</string>
+               </property>
+               <property name="text">
+                <string>CS - Curious</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_GF">
+               <property name="toolTip">
+                <string>sorta like curious, but for weird or ugly looking women</string>
+               </property>
+               <property name="text">
+                <string>GF - Goofy</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_girl_FB">
+               <property name="toolTip">
+                <string>that look that FAD and FAX videos always have. Woman is full sized and ready for lovin'</string>
+               </property>
+               <property name="text">
+                <string>FB - Full-bodied</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_15">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>210</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>Series Tags</string>
+           </property>
+           <widget class="QWidget" name="verticalLayoutWidget_21">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>141</width>
+              <height>181</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_26">
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_MUS">
+               <property name="toolTip">
+                <string>Part of the muscle series folder. While the tag MS is there, this makes it easy to find</string>
+               </property>
+               <property name="text">
+                <string>MUS - Muscle</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_BAK">
+               <property name="toolTip">
+                <string>The Bakky Insane Series. Really heinous and twisted shit</string>
+               </property>
+               <property name="text">
+                <string>BAK - Bakky Series</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_N24">
+               <property name="toolTip">
+                <string>Similar to Bakky. Really twisted shit</string>
+               </property>
+               <property name="text">
+                <string>N24 - Night24</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_RRA">
+               <property name="toolTip">
+                <string>Established subseries that involve rape crimes that are very realistic. Often outside. FAD and FAX</string>
+               </property>
+               <property name="text">
+                <string>RRA - Real Rape</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_CND">
+               <property name="toolTip">
+                <string>Public rape on trains and buses + creampies	</string>
+               </property>
+               <property name="text">
+                <string>CND - Chikan Nakadashi</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_GQU">
+               <property name="toolTip">
+                <string>Super soft-core that feature uncensored, totally bald pussy of incredibly innocent and young looking girls</string>
+               </property>
+               <property name="text">
+                <string>GQU - G-Queen</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_RTG">
+               <property name="toolTip">
+                <string>Large series of incest gameshows that I have over a dozen of</string>
+               </property>
+               <property name="text">
+                <string>RTG - Rocket Games</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QCheckBox" name="checkBox_series_SPK">
+               <property name="toolTip">
+                <string>&quot;Translations&quot; of key incest themed JAV videos</string>
+               </property>
+               <property name="text">
+                <string>SPK - Spikespen</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>160</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>Output</string>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>811</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <layout class="QFormLayout" name="formLayout_3">
+           <property name="fieldGrowthPolicy">
+            <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>Result</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineEdit_result">
+             <property name="minimumSize">
+              <size>
+               <width>525</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_make">
+           <property name="text">
+            <string>Make</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_parse">
+           <property name="text">
+            <string>Parse</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_reset">
+           <property name="text">
+            <string>Reset</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
