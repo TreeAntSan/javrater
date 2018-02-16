@@ -1,5 +1,5 @@
 '''
-Created on April 21, 2013.
+Created on April 21, 2013
 '''
 
 import sys, os.path
